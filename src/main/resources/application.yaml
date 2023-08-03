@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: inventory
+    url: jdbc:postgresql://localhost:65432/DemoApp
+    password: inventory
